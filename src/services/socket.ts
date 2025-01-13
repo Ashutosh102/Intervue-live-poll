@@ -1,7 +1,7 @@
 import { io } from 'socket.io-client'
 import { Question } from '../types/question'
 
-const socket = io('https://intervue-poll-backend.vercel.app')
+const socket = io('https://intervue-poll-backend-4yqa.onrender.com')
 
 export const socketService = {
   connectAsStudent: (studentId: string, name: string) => {
